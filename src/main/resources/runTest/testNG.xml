@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test_FrameWork">
+    <test thread-count="5" name="Run on Dev">
+        <classes>
+            <class name="com.build.anhteo.actions.SampleTest"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
