@@ -3,7 +3,11 @@
 <suite name="Test_FrameWork">
     <test thread-count="5" name="Run on Dev">
         <classes>
-            <class name="com.build.anhteo.actions.SampleTest"/>
+            <class name="com.build.anhteo.testcases.home.Test_Case_Test_1">
+                <methods>
+                    <include name="Test_1" description="TRANG CHU"/>
+                </methods>
+            </class>
         </classes>
     </test> <!-- Test -->
 </suite> <!-- Suite -->

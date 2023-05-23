@@ -12,7 +12,7 @@ import java.util.List;
 import java.util.Set;
 
 public class BasePage {
-    private final long longTimeOut = 30;
+    public long longTimeOut = 10;
 
     /**
      * mở một url
@@ -607,4 +607,5 @@ public class BasePage {
         WebDriverWait explicitWait = new WebDriverWait(driver, longTimeOut);
         explicitWait.until(ExpectedConditions.elementToBeClickable(getByXpath(xpath)));
     }
+
 }
